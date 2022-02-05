@@ -1,0 +1,31 @@
+{
+  "name": "@giveth/deploy-giveconomy",
+  "version": "1.0.0",
+  "description": "Deploy the Giveth GIVEconomy smart contracts",
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "main": "dist/index.js",
+  "scripts": {},
+  "files": [
+    "dist/"
+  ],
+  "engines": {
+    "node": ">=12.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giveth/deploy-giv-economy.git"
+  },
+  "author": {
+    "email": "contact@giveth.io",
+    "name": "Giveth",
+    "url": "https://giveth.io"
+  },
+ "license": "GPL-3.0-or-later",
+ "bugs": {
+   "url": "https://github.com/Giveth/deploy-giv-economy/issues"
+ },
+ "homepage": "https://giveth.io"
+}
